@@ -3567,6 +3567,12 @@ html.pd-lock {
   }
 
   /* ---------- 22b. type & rhythm ---------- */
+  /* Slightly larger brand mark on phones. Only the symbol grows — the
+     header's own gaps, padding and row height stay exactly as they were. */
+  .brand-mark {
+    height: 2.15rem;
+  }
+
   .section {
     padding-block: 3.2rem;
   }
